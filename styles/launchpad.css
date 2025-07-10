@@ -20,8 +20,6 @@
 .text-center{
     text-align: center;
 }
-
-
 /* navbar style started here  */
 .header{
     background-image: url('../Assets/Hero-bg.png');
@@ -53,3 +51,42 @@ nav ul li a{
    font-weight: bold;
    margin-bottom: 50px;
 }
+/* action section started here  */
+.action-section{
+    display: flex;
+    max-width: 1140px;
+    height: 328px;
+    justify-content: space-between; 
+    margin: 0 auto;
+
+}
+.action-img img{
+    border-radius: 48px;
+}
+/* productivity user section start here  */
+    .user-count{
+        display: flex;
+        justify-content:space-around;
+    }
+    .productivity-section{
+     max-width: 1140px;
+     margin: 30px auto;
+     height: 330px;
+     background-color: #D6DDED;
+     border-radius: 24px;
+     padding: 40px;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.count{
+    font-size: 60px;
+    margin-left: 70px;
+}
+.user-description{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+/* users section section start here  */
