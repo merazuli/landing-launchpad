@@ -1,0 +1,55 @@
+/* font awesome link  */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* coomon css style started here  */
+.btn-primary{
+    padding: 15px 35px;
+    background-color: #4E47FF;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* navbar style started here  */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+     background-repeat: no-repeat;
+     max-width: 1440px;
+     height: 698px;
+     margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 162px;
+    align-items: center;
+}
+nav ul li {
+ list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.list-item{
+    font-size: 35px;
+    font-weight: bold;
+}
+.navbar-heading{
+   margin: 158pxpx;
+   font-size: 65px;
+   color: #252432;
+   font-weight: bold;
+   margin-bottom: 50px;
+}
