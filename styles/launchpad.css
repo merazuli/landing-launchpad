@@ -1,4 +1,5 @@
-/* font awesome link  */
+/* google font link  */
+
 
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -7,6 +8,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 /* coomon css style started here  */
 .btn-primary{
     padding: 15px 35px;
@@ -31,7 +33,7 @@
 nav ul{
     display: flex;
     justify-content: space-between;
-    margin: 0px 162px;
+    margin: 20px 162px;
     align-items: center;
 }
 nav ul li {
@@ -90,3 +92,80 @@ nav ul li a{
     padding-bottom: 20px;
 }
 /* users section section start here  */
+
+
+
+/* ready-action start here  */
+.ready-section{
+    max-width: 1140px;
+    height: 696px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.big-img{
+    border-radius: 48px;
+    margin-top: 20px;
+    text-align: center;
+}
+/* get touch section started here  */
+.newsletter-section{
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: #D6DDED;
+    height: 696px;
+    border-radius: 20px;
+}
+.nesletter-coloumn{
+    width: 50%;    
+}
+input[type="text"]{
+    height: 34px;
+    background-color: white;
+    color: #000000;
+    border: none;
+    width: 90%;
+}
+button[type="submit"]{
+    height: 34px;
+     background-color: #4E47FF;
+    color: #000000;
+    border: none;
+    width: 90%;
+}
+.newsletter-row{
+    display: flex;
+    width: 1140px;
+    height: 632px;
+    padding: 20px 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150;
+}
+textarea{
+    display: block;
+    margin: 20px 0px;
+    width: 90%;
+}
+
+/* footer section started here  */
+.footer{
+    width: 1440px;
+    margin: 0 auto;
+    margin: 104px auto;
+}
+.item-list{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 65px;
+}
+.item-list a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-section{
+    width: 531px;
+    height: 231px;
+    margin: 0px auto;
+}
