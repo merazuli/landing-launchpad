@@ -22,6 +22,9 @@
 .text-center{
     text-align: center;
 }
+main{
+    background-color: #a9dfbf ;
+}
 /* navbar style started here  */
 .header{
     background-image: url('../Assets/Hero-bg.png');
@@ -95,8 +98,37 @@ nav ul li a{
     font-weight: bold;
     padding-bottom: 20px;
 }
-/* users section section start here  */
+/* users section review section start here  */
 
+.user-review-section{
+    width: 1140px;
+    margin: 20px auto;
+    height: 342px;
+}
+.user-name{
+    display: flex;
+}
+.user-name img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.user-card{
+    /* border: 2px solid salmon; */
+    width: 346px;
+    height: 230px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.user-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2EDED;
+}
 
 
 /* ready-action start here  */
